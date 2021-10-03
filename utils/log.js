@@ -17,13 +17,13 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
 	switch (option) {
 		case "warn":
-			console.log(chalk.magenta('[ NGUYỄN QUỐC VINH ] » ') + data);
+			console.log(chalk.magenta('[ warn ] » ') + data);
 			break;
 		case "error":
-			console.log(chalk.magenta('[ NGUYỄN QUỐC VINH ] » ') + data);
+			console.log(chalk.magenta('[ error ] » ') + data);
 			break;
 		default:
-			console.log(chalk.magenta(`[ NGUYỄN QUỐC VINH ] » `) + data);
+			console.log(chalk.magenta(`[ Tử Thần Đau Khổ ] » `) + data);
 			break;
 	}
 }
