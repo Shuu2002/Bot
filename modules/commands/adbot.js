@@ -6,7 +6,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "HungCho fix by VĐT&NTH",
   description: "Kiểm tra thông tin ngơời dùng.",
-  commandCategory: "Info",
+  commandCategory: "thông tin Admin",
   usages: "info",
   cooldowns: 1,
   dependencies: {
