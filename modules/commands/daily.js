@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Nhận 200 coins mỗi ngày!",
-	commandCategory: "economy",
+	commandCategory: "kiếm tiền",
     cooldowns: 5,
     envConfig: {
         cooldownTime: 43200000,
