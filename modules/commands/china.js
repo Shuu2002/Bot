@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Lê Anh Trường",
 	description: "china",
-	commandCategory: "IMAGE",
+	commandCategory: "hình ảnh",
 	usages: "china",
 	cooldowns: 1,
 	
