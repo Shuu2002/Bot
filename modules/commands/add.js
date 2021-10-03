@@ -4,7 +4,7 @@ module.exports.config = {
 	credits: "Lợi",
 	hasPermssion: 1,
 	description: "thêm thành viên",
-	commandCategory: "System",
+	commandCategory: "dành cho QTV",
 	usages: "add",
 	cooldowns: 0,
     dependencies: ["fb-tools"]
