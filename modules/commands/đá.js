@@ -7,7 +7,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "huy hoàng và hoàng",
   description: "Đá người Bạn Muốn",
-  commandCategory: "Hình ảnh",
+  commandCategory: "hành động",
   usages: "đá",
   cooldowns: 5,
   dependencies: {"request": "","fs": "","axios": ""}
