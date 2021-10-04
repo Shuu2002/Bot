@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 1,
     credits: "... - Long LTD",
     description: "War nát cái boxchat",
-    commandCategory: "group",
+    commandCategory: "tag 1 ai đó",
     usages: "war đậm chất",
     cooldowns: 10,
     dependencies: {
