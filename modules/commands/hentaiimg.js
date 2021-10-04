@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "VDT&NTH",
 	description: "hentaiimg",
-	commandCategory: "HENTAI",
+	commandCategory: "nsfw",
 	usages: "hentaiimg [Text]",
 	cooldowns: 1,
 	
