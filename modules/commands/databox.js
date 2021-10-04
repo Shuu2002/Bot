@@ -1,10 +1,10 @@
 ﻿module.exports.config = {
     name: "databox",
     version: "0.0.1-beta",
-    hasPermssion: 0,
+    hasPermssion: 2,
     credits: "Lợi",
     description: "tìm kiếm thông tin qua id của box hoặc người dùng",
-    commandCategory: "Admin",
+    commandCategory: "dành cho Admin",
     usages: "data",
     cooldowns: 5,
     
