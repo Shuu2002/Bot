@@ -4,12 +4,12 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "CatalizCS",
 	description: "Đếm ngược tới kì thi trung học phổ thông quốc gia",
-	commandCategory: "other",
+	commandCategory: "đếm ngược",
 	cooldowns: 5
 }
 
 module.exports.run = function ({ event, api }) {
-    const t = Date.parse("Aug 5, 2021 07:00:00") - Date.parse(new Date());
+    const t = Date.parse("Aug 5, 2022 07:00:00") - Date.parse(new Date());
     const seconds = Math.floor( (t/1000) % 60 );
     const minutes = Math.floor( (t/1000/60) % 60 );
     const hours = Math.floor( (t/(1000*60*60)) % 24 );
