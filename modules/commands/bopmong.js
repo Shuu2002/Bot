@@ -4,7 +4,7 @@
   hasPermssion: 0,
   credits: "VinhBeat",
   description: "bopmong người bạn tag",
-  commandCategory: "VinhBeat",
+  commandCategory: "hành động",
   usages: "[tag người bạn cần hiếp]",
   cooldowns: 5,
   dependencies: {
