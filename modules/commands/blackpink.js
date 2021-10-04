@@ -78,6 +78,18 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.imgur.com/QsCzbI7.jpg",
 "https://i.imgur.com/rSySknj.jpg",
 "https://i.imgur.com/DvEWRgb.jpg",
+"https://imgur.com/7yxOCZC.jpg",
+"https://imgur.com/uSL6XMX.jpg",
+"https://imgur.com/uJtWX4H.jpg",
+"https://imgur.com/EHE1Sn9.jpg",
+"https://imgur.com/9VKAdBI.jpg",
+"https://imgur.com/NBgqRjS.jpg",
+"https://imgur.com/yX1po44.jpg",
+"https://imgur.com/1yF5vsW.jpg",
+"https://imgur.com/nkVFzxq.jpg",
+"https://imgur.com/CHhFuC6.jpg",
+"https://imgur.com/hWI39rY.jpg",
+
   ];
 	 var callback = () => api.sendMessage({body:`Ảnh của nhóm Blaclpink đây \nSố Ảnh hiện có: ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/5.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg"));	
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/5.jpg")).on("close",() => callback());
