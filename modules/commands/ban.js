@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "NTKhang & edited by DuyVuong",
 	description: "Ban thành viên vĩnh viễn khỏi nhóm (Nhớ set cho bot qtv nha)\nAuthor: NTKhang",
-	commandCategory: "Command",
+	commandCategory: "ban 1 ai đó",
 	usages: "[key]",
 	cooldowns: 5,
 	info: [
