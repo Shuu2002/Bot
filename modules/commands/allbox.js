@@ -4,7 +4,7 @@ module.exports.config = {
 	credits: "Him",
 	hasPermssion: 2,
 	description: "Lấy tên và id các nhóm chứa bot",
-	commandCategory: "Dành cho admin bot",
+	commandCategory: "Dành cho admin",
 	usages: "allbox",
 	cooldowns: 5
 };
