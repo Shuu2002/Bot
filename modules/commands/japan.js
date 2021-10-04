@@ -4,7 +4,7 @@
   hasPermssion: 0,
   credits: "HungCho",
   description: "Random ảnh girl",
-  commandCategory: "random-img",
+  commandCategory: "hình ảnh",
   usages: "japan",
   cooldowns: 5,
   dependencies: {
