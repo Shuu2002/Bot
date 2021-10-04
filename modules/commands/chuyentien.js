@@ -4,8 +4,8 @@
     hasPermssion: 0,
     credits: "Dũng UwU",
     description: "Chuyển tiền của bản thân cho ai đó",
-    commandCategory: "Command",
-    usages: "pay @tag coins",
+    commandCategory: "kiếm tiền",
+    usages: "chuyentien @tag coins",
     cooldowns: 5,
      };
 
