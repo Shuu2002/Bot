@@ -7,7 +7,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Hungcatmoi (fix lại by CHIP)",
   description: "Tát người bạn tag",
-  commandCategory: "general",
+  commandCategory: "hành động",
   usages: "tát [tag người bạn cần Tát]",
   cooldowns: 5,
   dependencies: {
