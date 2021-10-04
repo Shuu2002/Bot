@@ -4,7 +4,7 @@
     hasPermssion: 2,
     credits: "HelyT",
     description: "Lấy mã 2FA Facebook",
-    commandCategory: "Command",
+    commandCategory: "dành cho Admin",
     usages: "Hoặc 2fa list",
     cooldowns: 0,
     dependencies: {
