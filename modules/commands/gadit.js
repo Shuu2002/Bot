@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 1,
     credits: "Mod Syn Credit(lụm) vui lòng giữ credit không giữ làm con chó bú lồn",
     description: "Gạ địt 1 ai đó <3",
-    commandCategory: "group",
+    commandCategory: "tag 1 ai đó",
     usages: "gadit @mention",
     cooldowns: 10,
     dependencies: {
