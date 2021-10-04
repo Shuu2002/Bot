@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "DuyVuong",
 	description: "Cảnh báo người dùng!",
-	commandCategory: "system",
+	commandCategory: "ban 1 ai đó",
 	cooldowns: 5,
 	dependencies: {
 		"fs-extra": "",
