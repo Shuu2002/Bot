@@ -4,7 +4,7 @@
 	hasPermssion: 2,
 	credits: "Dũng UwU",
 	description: "sendmsg",
-	commandCategory: "general",
+	commandCategory: "dành cho admin",
 	usages: "sendmsg [user]/[thread] id msg",
     cooldowns: 5,
 };
