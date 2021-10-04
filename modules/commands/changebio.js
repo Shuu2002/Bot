@@ -4,7 +4,7 @@
 	hasPermssion: 2,
 	credits: "NTKhang",
 	description: "Đổi tiểu sử của bot",
-	commandCategory: "admin",
+	commandCategory: "dành cho admin",
 	usages: "",
   cooldowns: 5
   
