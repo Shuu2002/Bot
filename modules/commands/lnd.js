@@ -1,11 +1,11 @@
 module.exports.config = {
-	name: "lnd",
+	name: "misthy",
 	version: "1.0.0",
 	hasPermssion: 0,
 	credits: "Thanh dz",
 	description: "Random ảnh Misthy :))",
-	commandCategory: "random-img",
-	usages: "lnd",
+	commandCategory: "hình ảnh",
+	usages: "misthy",
 	cooldowns: 5
 };
 
