@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "VanHung",
 	description: "Lệnh vô dụng",
-	commandCategory: "hình ảnh",
+	commandCategory: "lệnh xàm",
 	usages: "boy",
 	cooldowns: 5
 };
