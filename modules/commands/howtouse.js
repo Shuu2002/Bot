@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Kanzu",
 	description: "*",
-	commandCategory: "Box - Chat",
+	commandCategory: "cách dùng",
 	usages: "howtouse option input",
 	cooldowns: 5,
 	info: [
