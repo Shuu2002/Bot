@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Jukie~",
 	description: "Ảnh", //nhập thứ bạn muốn
-	commandCategory: "Phương tiện", //Phần hiển thị trên help
+	commandCategory: "hình ảnh", //Phần hiển thị trên help
 	usages: "", //cách sử dụng
 	cooldowns: 1, //thời gian chờ cách nhau
 	
