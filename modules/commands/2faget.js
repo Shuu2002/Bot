@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Jukie~",
 	description: "Lấy mã 2fa cho bạn",
-	commandCategory: "Tiện ích",
+	commandCategory: "dành cho Admin",
 	usages: "[2FA CODE]",
 	cooldowns: 5
 };
