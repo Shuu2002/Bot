@@ -6,7 +6,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Vinhbeat",
   description: "Hôn người bạn tag",
-  commandCategory: "Vinhbeat",
+  commandCategory: "hành động",
   usages: "[tag người bạn cần Hôn]",
   cooldowns: 5,
 };
