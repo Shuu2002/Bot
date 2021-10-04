@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Thắng",
   description: "Random ảnh girl",
-  commandCategory: "random-img",
+  commandCategory: "hình ảnh",
   usages: "gainga",
   cooldowns: 5,
   dependencies: {
