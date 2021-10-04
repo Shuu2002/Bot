@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "CatalizCS",
     description: "Game bài cào dành cho nhóm có đặt cược",
-    commandCategory: "game-mp",
+    commandCategory: "game",
     usages: "[start/join/info/leave]",
     cooldowns: 1,
     dependencies: {
