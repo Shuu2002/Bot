@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "NTKhang",
 	description: "Create Text",
-	commandCategory: "Command",
+	commandCategory: "mã hóa",
 	dependencies: {"figlet": ""},
 	usages: "ascii <text>",
 	cooldowns: 5
