@@ -4,7 +4,7 @@ module.exports.config = {
  hasPermssion: 0,
  credits: "JRT",
  description: "Random ảnh Rushia",
- commandCategory: "random-img",
+ commandCategory: "hololive",
  usages: "rushia",
  cooldowns: 3
 };
