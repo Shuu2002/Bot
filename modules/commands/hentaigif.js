@@ -4,7 +4,7 @@
 	hasPermssion: 0,
 	credits: "VDT&NTH",
 	description: "hentaigif",
-	commandCategory: "Image",
+	commandCategory: "hình ảnh",
 	usages: "hentaigif [Text]",
 	cooldowns: 1,
 	
