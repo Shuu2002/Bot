@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "HungCho",
 	description: "Gửi tin nhắn tới các nhóm!",
-	commandCategory: "Admin",
+	commandCategory: "dành cho admin",
 	usages: "sendnoti [Text]",
 	cooldowns: 5,
 	info: [
