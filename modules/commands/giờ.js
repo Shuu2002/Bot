@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Đăng",
 	description: "Xem bây giờ là mấy giờ",
-	commandCategory: "đếm ngược", 
+	commandCategory: "xem giờ", 
 	usages: "giờ", 
 	cooldowns: 0,
 	dependencies: [] 
