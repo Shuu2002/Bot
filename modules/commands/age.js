@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "DuyVuong",
 	description: "Tuổi",
-	commandCategory: "Command",
+	commandCategory: "đếm ngược",
 	usages: "[ngày/tháng/năm sinh]",
 	cooldowns: 0
 };
