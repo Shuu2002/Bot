@@ -4,7 +4,7 @@
     hasPermssion: 0,
      credits: "Jukie~",
       description: "tính khoảng cách 2 mốc thời gian được xác định từ trước",
-       commandCategory: "general",
+       commandCategory: "đếm ngược",
         usages: "timing [dd/mm/yyyy => dd/mm/yyyy]",
          cooldowns: 5
          };
