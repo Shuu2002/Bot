@@ -4,7 +4,7 @@
 	hasPermssion: 0,
 	credits: "VanHung",
 	description: "Xem ảnh Jimmy",
-	commandCategory: "Hình Ảnh",
+	commandCategory: "hình Ảnh",
 	usages: "boy",
 	cooldowns: 5
 };
