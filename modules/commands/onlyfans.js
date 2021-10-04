@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Lê Anh Trường",
 	description: "onlyfans",
-	commandCategory: "hình ảnh 18",
+	commandCategory: "nsfw",
 	usages: "onlyfans",
 	cooldowns: 1,
 	
