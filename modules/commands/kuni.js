@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "VDT&NTH",
 	description: "kuni",
-	commandCategory: "ANIME V2",
+	commandCategory: "hình ảnh",
 	usages: "kuni [Text]",
 	cooldowns: 1,
 	
