@@ -4,8 +4,8 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "HungCho",
   description: "Kiểm tra thông tin nhs chat.",
-  commandCategory: "Image",
-  usages: "blackpink",
+  commandCategory: "hình ảnh",
+  usages: "",
   cooldowns: 5,
   dependencies: {
     "request":"",
