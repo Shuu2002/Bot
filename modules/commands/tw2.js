@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Trung Kien",
 	description: "Random ảnh tw :))",
-	commandCategory: "random-img",
+	commandCategory: "hình ảnh",
 	usages: "tw2",
 	cooldowns: 5
 };
