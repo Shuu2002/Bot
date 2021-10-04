@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Thanh dz",
 	description: "Random ảnh trai xinh nhất Việt Nam :))",
-	commandCategory: "random-img",
+	commandCategory: "hình ảnh",
 	usages: "huyền",
 	cooldowns: 3
 };
