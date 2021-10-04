@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "MewMew",
 	description: "Comment trên pỏnhub ( ͡° ͜ʖ ͡°)",
-	commandCategory: "Image",
+	commandCategory: "viết chữ lên bảng",
 	usages: "phub [text]",
 	cooldowns: 10,
 	dependencies: {
