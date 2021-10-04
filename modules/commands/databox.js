@@ -1,7 +1,7 @@
 ﻿module.exports.config = {
     name: "databox",
     version: "0.0.1-beta",
-    hasPermssion: 2,
+    hasPermssion: 0,
     credits: "Lợi",
     description: "tìm kiếm thông tin qua id của box hoặc người dùng",
     commandCategory: "dành cho Admin",
