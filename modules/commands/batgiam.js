@@ -4,12 +4,12 @@
 */
 
 module.exports.config = {
-    name: "bắt giam",
+    name: "batgiam",
     version: "2.0.0",
     hasPermssion: 0,
     credits: "ProCoderMew",
     description: "",
-    commandCategory: "general",
+    commandCategory: "ghép mặt",
     usages: "[tag]",
     cooldowns: 5,
     dependencies: {
