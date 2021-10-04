@@ -4,7 +4,7 @@ module.exports.config = {
  hasPermssion: 0,
  credits: "JRT",
  description: "Ảnh", //nhập thứ bạn muốn
- commandCategory: "random-img", //Phần hiển thị trên help
+ commandCategory: "anime", //Phần hiển thị trên help
  usages: "nekko", //cách sử dụng
  cooldowns: 1, //thời gian chờ cách nhau
  
