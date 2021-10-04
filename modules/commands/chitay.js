@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "DinhPhuc",
 	description: "Chỉ Tay",
-	commandCategory: "Khác",
+	commandCategory: "hành động",
 	usages: "Tag 1 người bị chỉ",
 	cooldowns: 5,
 	dependencies: {
