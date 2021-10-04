@@ -4,7 +4,7 @@
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Random một con số bất kì trong một khoảng",
-	commandCategory: "game",
+	commandCategory: "lệnh xàm",
 	cooldowns: 5
 };
 
