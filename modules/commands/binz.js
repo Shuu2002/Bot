@@ -1,11 +1,11 @@
 module.exports.config = {
-	name: "binzz",
+	name: "binz",
 	version: "1.0.0",
 	hasPermssion: 0,
 	credits: "Vinhbeat",
 	description: "Random ảnh trai xinh",
-	commandCategory: "Vinhbeat",
-	usages: "binzz",
+	commandCategory: "hình ảnh",
+	usages: "binz",
 	cooldowns: 5
 };
 
