@@ -11,7 +11,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "NTKhang",
   description: "Tạo banner anime với tên của bạn",
-  commandCategory: "Tạo ảnh thành viên",
+  commandCategory: "tạo ảnh",
   usages: "<nội dung>\nVí dụ: banneranime Procoder",
   cooldowns: 5
 };
