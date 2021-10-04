@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "Mirai Team",
     description: "Tham gia câu cá ngay trên chính nhóm của bạn",
-    commandCategory: "game-mp",
+    commandCategory: "game",
     usages: "help",
     cooldowns: 0,
     dependencies: {
