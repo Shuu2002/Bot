@@ -9,7 +9,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "ProCoderMew",
 	description: "Dạy bot (dùng cho lệnh sim)",
-	commandCategory: "general",
+	commandCategory: "dậy bot",
 	usages: "hello => goodbye",
 	cooldowns: 5,
 	dependencies: {
