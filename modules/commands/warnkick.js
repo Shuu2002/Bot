@@ -4,7 +4,7 @@
 	hasPermssion: 0,
 	credits: "NTKhang fix by CallmeSun",
 	description: "⚡️Cảnh cáo thành viên  đủ 3 lần sẽ ban khỏi nhóm (nhớ set qtv cho bot nha)",
-	commandCategory: "Admin",
+	commandCategory: "ban 1 ai đó",
 	usages: "[key]",
 	cooldowns: 1,
 	info: [
