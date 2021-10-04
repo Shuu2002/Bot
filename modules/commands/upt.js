@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "HTHB",
 	description: "Random ảnh theo api - uptime",
-	commandCategory: "system",
+	commandCategory: "xem giờ",
 	cooldowns: 3
 
 
