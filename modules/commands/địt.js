@@ -4,7 +4,7 @@
   hasPermssion: 0,
   credits: "Hoàng 🥀",
   description: "Địt người bạn tag",
-  commandCategory: "Command",
+  commandCategory: "hành động",
   usages: "địt [tag người bạn cần địt]",
   cooldowns: 5,
   dependencies: {
