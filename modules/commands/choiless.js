@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "CHIP2502",
     description: "",
-    commandCategory: "Command",
+    commandCategory: "hành động",
     usages: "[@tag]",
     cooldowns: 5,
     dependencies: {
