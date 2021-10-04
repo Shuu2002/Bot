@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 2,
   credits: "HungCho",
   description: "out box",
-  commandCategory: "Admin",
+  commandCategory: "dành cho Admin",
   usages: "out [tid]",
   cooldowns: 3
 };
