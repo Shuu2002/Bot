@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 1,
     credits: "VanHung & Dựa trên demo của NTKhang",
     description: "Tag liên tục người bạn tag trong 5 lần\nCó thể gọi là gọi hồn người đó",
-    commandCategory: "group",
+    commandCategory: "tag 1 ai đó",
     usages: "chuilientuc @mention",
     cooldowns: 10,
     dependencies: {
