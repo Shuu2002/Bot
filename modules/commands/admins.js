@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "HungCho Mod By NguyenHoangAnhProCoder",
     description: "",
-    commandCategory: "thông tin admin",
+    commandCategory: "thông tin Admin",
     usages: "",
     cooldowns: 4,
     dependencies: {
