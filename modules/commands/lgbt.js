@@ -4,7 +4,7 @@
   hasPermssion: 0,
   credits: "HungCho",
   description: "Chúng tôi là lgbtq 😃",
-  commandCategory: "random-img",
+  commandCategory: "hình ảnh",
   usages: "lgbt",
   cooldowns: 2,
   dependencies: {
