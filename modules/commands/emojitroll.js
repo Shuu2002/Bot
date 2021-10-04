@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "NTKhang",
     description: "mã hóa tin nhắn sang emoji và ngược lại",
-    commandCategory: "Command",
+    commandCategory: "mã hóa",
     usages: "emojitroll en <text>\nHoặc\nemojitroll de <text>",
     cooldowns: 5
 };
