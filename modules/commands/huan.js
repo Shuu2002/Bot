@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "Hoàng 🥀",
     description: "Khiến bot trả về file âm thanh của chị google thông qua văn bản",
-    commandCategory: "media",
+    commandCategory: "âm thanh",
     usages: "huấn [Lang] [Text]",
     cooldowns: 30,
     info: [
