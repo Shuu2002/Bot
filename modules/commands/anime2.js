@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Thanh dz",
 	description: "Random ảnh Anime",
-	commandCategory: "Hình nền",
+	commandCategory: "anime",
 	usages: "anime2",
 	cooldowns: 5
 };
