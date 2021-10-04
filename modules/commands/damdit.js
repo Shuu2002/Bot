@@ -6,7 +6,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Vinhbeat",
   description: "damdit",
-  commandCategory: "Vinhbeat",
+  commandCategory: "hành động",
   usages: "[tag người]",
   cooldowns: 5,
 };
