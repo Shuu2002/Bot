@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Teri",
   description: "Random ảnh lớp học biết tuốt",
-  commandCategory: "lớp học biết tuốt",
+  commandCategory: "anime",
   usages: "",
   cooldowns: 5,
   dependencies: {
