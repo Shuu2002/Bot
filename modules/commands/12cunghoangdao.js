@@ -5,7 +5,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "JRT", 
 	description: "no prefix",
-	commandCategory: "Tử vi",
+	commandCategory: "không cần dấu lệnh",
 	usages: "12 cung hoàng đạo",
     cooldowns: 5, 
 };
