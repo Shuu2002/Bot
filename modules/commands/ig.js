@@ -5,7 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Phan Trần Anh Tâm",
   description: "Random ảnh gái trên Intagram",
-  commandCategory: "Image",
+  commandCategory: "hình ảnh",
   usages: "ig",
   cooldowns: 5,
   dependencies: {
