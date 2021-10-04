@@ -7,7 +7,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "HTHB",
   description: "vỗ người bạn tag",
-  commandCategory: "Command",
+  commandCategory: "hành động",
   usages: "[tag người bạn vỗ]",
   cooldowns: 5,
   dependencies: {"request": "","fs": ""}
