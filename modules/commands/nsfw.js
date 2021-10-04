@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 1,
 	credits: "Mirai Team",
 	description: "Bật tắt quyền sử dụng các lệnh NSFW",
-	commandCategory: "system",
+	commandCategory: "dành cho QTV",
 	cooldowns: 5,
 };
 
