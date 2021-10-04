@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Thanh dz",
 	description: "Random ảnh loli :))",
-	commandCategory: "random-img",
+	commandCategory: "anime",
 	usages: "loli",
 	cooldowns: 3
 };
