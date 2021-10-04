@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "NTKhang",
 	description: "Converts your text to Zalgo",
-	commandCategory: "game",
+	commandCategory: "mã hóa",
 	depndencies: {"to-zalgo":""},
 	usages: "zalgo <text>",
 	cooldowns: 5
