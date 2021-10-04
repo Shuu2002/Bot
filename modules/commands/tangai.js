@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Syn(dkh)",
 	description: "Tán gái vip pro",
-	commandCategory: "Tán gái",
+	commandCategory: "thơ",
 	cooldowns: 0
 };
 
