@@ -9,7 +9,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "ProCoderMew",
     description: "Chat c\xF9ng con sim m\u1EA5t d\u1EA1y nh\u1EA5t",
-    commandCategory: "General",
+    commandCategory: "nói chuyện với bot",
     usages: "[args]",
     cooldowns: 5,
     dependencies: {
