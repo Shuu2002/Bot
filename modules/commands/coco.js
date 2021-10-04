@@ -4,7 +4,7 @@ module.exports.config = {
  hasPermssion: 0,
  credits: "JRT",
  description: "Random ảnh pekora",
- commandCategory: "random-img",
+ commandCategory: "hololive",
  usages: "coco",
  cooldowns: 3
 };
