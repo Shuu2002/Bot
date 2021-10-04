@@ -7,7 +7,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Thanh Dz (fix lại by CHIP)",
   description: "Ảnh Hentaiz",
-  commandCategory: "Image",
+  commandCategory: "nsfw",
   usages: "hentaiz",
   cooldowns: 5,
   dependencies: {
