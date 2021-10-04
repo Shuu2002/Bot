@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 1,
 	credits: "Mirai Team",
 	description: "Thông báo rankup cho từng nhóm, người dùng",
-	commandCategory: "QtvBox",
+	commandCategory: "dành cho qtv",
 	dependencies: {
 		"fs-extra": ""
 	},
