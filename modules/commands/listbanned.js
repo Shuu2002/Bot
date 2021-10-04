@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "NTKhang",
 	description: "xem danh sách nhóm hoặc người dùng bị cấm",
-	commandCategory: "admin",
+	commandCategory: "dành cho Admin",
 	usages: "[thread], [user]",
 	cooldowns: 5,
 };
