@@ -4,8 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "CatalizCS",
 	description: "lấy ảnh gif",
-	commandCategory: "random-img",
-	usages: "gif bomman",
+	commandCategory: "hình ảnh
 	cooldowns: 5,
 	dependencies: ["request"],
 	envConfig: {
