@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Xem thông tin thời tiết tại khu vực",
-	commandCategory: "other",
+	commandCategory: "group",
 	usages: "[Location]",
 	cooldowns: 5,
 	dependencies: {
