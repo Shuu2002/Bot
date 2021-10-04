@@ -1,10 +1,10 @@
 module.exports.config = {
-	name: "banking",
+	name: "nganhang",
 	version: "1.0.0",
 	credits: "HungCho & Khánh Milo",
 	description: "",
 	usages: "",
-    commandCategory: "game-sp",
+    commandCategory: "kiếm tiền",
 	cooldowns: 0,
 	dependencies: {
         "fs-extra" : ""
