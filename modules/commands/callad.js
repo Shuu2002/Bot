@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "NTKhang fix by Jukie",
   description: "thông báo lỗi của bot đến admin hoặc góp ý",
-  commandCategory: "Nhóm",
+  commandCategory: "liên hệ admin",
   usages: "[lỗi gặp phải hoặc ý kiến]",
   cooldowns: 5,
 };
