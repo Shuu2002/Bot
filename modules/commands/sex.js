@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Nguyễn Quốc Vinh (Vinhbeat)",
   description: "Image",
-  commandCategory: "Image",
+  commandCategory: "nsfw",
   usages: "[Ảnh sex]",
   cooldowns: 0,
   dependencies: {
