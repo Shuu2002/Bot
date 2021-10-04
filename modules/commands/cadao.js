@@ -4,7 +4,7 @@
 	hasPermssion: 0,
 	credits: "VanHung",
 	description: "Ca Dao Việt Nam",
-	commandCategory: "Command",
+	commandCategory: "Thơ",
 	usages: "cadao",
 	cooldowns: 5
 };
