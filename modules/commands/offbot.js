@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "HTHB",
 	description: "Tắt Bot.",
-	commandCategory: "AdminBot",
+	commandCategory: "dành cho Admin",
 	cooldowns: 0
         };
 module.exports.run = ({event, api}) =>api.sendMessage("Đang tắt bot, vui lòng đợi...\nHẹn gặp lại!!<3.",event.threadID, () =>process.exit(0))
