@@ -9,7 +9,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "CatalizCS",
 	description: "Cảnh báo người dùng!",
-	commandCategory: "system",
+	commandCategory: "ban 1 ai đó",
 	usages: "[lý do/all]",
 	cooldowns: 5,
 	dependencies: {
