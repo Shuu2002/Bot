@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Vinhbeat",
 	description: "Random ảnh trai xinh",
-	commandCategory: "Vinhbeat",
+	commandCategory: "hình ảnh",
 	usages: "trai",
 	cooldowns: 5
 };
