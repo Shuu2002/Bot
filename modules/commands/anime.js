@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Vinhbeat",
 	description: "Random Image",
-	commandCategory: "hình ảnh",
+	commandCategory: "anime",
 	usages: "anime",
 	cooldowns: 5
 };
