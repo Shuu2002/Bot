@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "HungCho",
   description: "Kiểm tra thông tin nhs chat.",
-  commandCategory: "Hình Ảnh",
+  commandCategory: "anime",
   usages: "tokyo revengers",
   cooldowns: 5,
   dependencies: {
