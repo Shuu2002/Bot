@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 2,
   credits: "NTKhang", //mod lại tí :)) D-Jukie
   description: "tự động cấm người dùng nếu spam bot 3 lần/60s",
-  commandCategory: "Dành cho admin bot",
+  commandCategory: "Dành cho admin",
   usages: "x",
   cooldowns: 5
 };
