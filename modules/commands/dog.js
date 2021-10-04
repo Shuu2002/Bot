@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "VDT&NTH",
 	description: "Xem Boss",
-	commandCategory: "Image",
+	commandCategory: "động vật",
 	usages: "dog [Text]",
 	cooldowns: 1,
 	
