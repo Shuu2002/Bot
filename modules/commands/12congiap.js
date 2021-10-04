@@ -5,7 +5,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Long LTD", 
 	description: "no prefix",
-	commandCategory: "Command",
+	commandCategory: "không cần dấu lệnh",
 	usages: "12 con giáp",
     cooldowns: 5, 
 };
