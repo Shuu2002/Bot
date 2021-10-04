@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "blackpink-1",
+  name: "blackpink",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "HungCho",
