@@ -4,7 +4,7 @@
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Random biệt danh tiếng NHẬT 🤔",
-	commandCategory: "Khác",
+	commandCategory: "group",
 	cooldowns: 5,
 	dependencies: {
 		"request": ""
