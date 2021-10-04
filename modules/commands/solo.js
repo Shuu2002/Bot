@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "VDT&NTH",
 	description: "solo",
-	commandCategory: "Anime V2",
+	commandCategory: "nsfw",
 	usages: "solo [Text]",
 	cooldowns: 1,
 	
