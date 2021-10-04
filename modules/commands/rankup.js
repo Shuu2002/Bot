@@ -1,27 +1,30 @@
-﻿module.exports.config = {
+module.exports.config = {
 	name: "rankup",
-	version: "0.0.2",
+	version: "1.0.1",
 	hasPermssion: 1,
 	credits: "Mirai Team",
 	description: "Thông báo rankup cho từng nhóm, người dùng",
-	commandCategory: "system",
+	commandCategory: "QtvBox",
 	dependencies: {
 		"fs-extra": ""
 	},
 	cooldowns: 5,
 	envConfig: {
 		autoUnsend: true,
-		unsendMessageAfter: 5
+		unsendMessageAfter: 60
 	}
 };
 
-module.exports.handleEvent = async function({ api, event, Currencies, Users }) {
-	const {threadID, senderID } = event;
+module.exports.handleEvent = async function({ api, event, Currencies, Users, getText }) {
+	var {threadID, senderID } = event;
 	const { createReadStream, existsSync, mkdirSync } = global.nodemodule["fs-extra"];
 
-	const thread = global.data.threadData.get(parseInt(threadID)) || {};
+	threadID = String(threadID);
+	senderID = String(senderID);
 
-	var exp = parseInt((await Currencies.getData(senderID)).exp);
+	const thread = global.data.threadData.get(threadID) || {};
+
+	let exp = (await Currencies.getData(senderID)).exp;
 	exp = exp += 1;
 
 	if (isNaN(exp)) return;
@@ -36,7 +39,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users }) {
 
 	if (level > curLevel && level != 1) {
 		const name = global.data.userName.get(senderID) || await Users.getNameUser(senderID);
-		var messsage = (typeof thread.customRankup == "undefined") ? msg = "Trình độ chém gió của {name} đã đạt tới level {level}" : msg = thread.customRankup,
+		var messsage = (typeof thread.customRankup == "undefined") ? msg = getText("levelup") : msg = thread.customRankup,
 			arrayContent;
 
 		messsage = messsage
@@ -44,14 +47,13 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users }) {
 			.replace(/\{level}/g, level);
 			
 		if (existsSync(__dirname + "/cache/rankup/")) mkdirSync(__dirname + "/cache/rankup/", { recursive: true });
-		if (existsSync(__dirname + `/cache/rankup/${event.threadID}.gif`)) arrayContent = { body: messsage, attachment: createReadStream(__dirname + `/cache/rankup/${event.threadID}.gif`), mentions: [{ tag: name, id: senderID }] };
+		if (existsSync(__dirname + `/cache/rankup/rankup.mp4`)) arrayContent = { body: messsage, attachment: createReadStream(__dirname + `/cache/rankup/rankup.mp4`), mentions: [{ tag: name, id: senderID }] };
 		else arrayContent = { body: messsage, mentions: [{ tag: name, id: senderID }] };
 		const moduleName = this.config.name;
-		(arrayContent, threadID, async function (error, info){
+		api.sendMessage(arrayContent, threadID, async function (error, info){
 			if (global.configModule[moduleName].autoUnsend) {
-				console.log(global.configModule[moduleName].autoUnsend);
-				await new Promise(resolve => setTimeout(resolve, global.configModule[moduleName].unsendMessageAfter * 1000));
-				return (info.messageID);
+				await new Promise(resolve => setTimeout(resolve, global.configModule[moduleName].unsendMessageAfter * 60000));
+				return api.unsendMessage(info.messageID);
 			} else return;
 		});
 	}
@@ -59,16 +61,30 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users }) {
 	await Currencies.setData(senderID, { exp });
 	return;
 }
-module.exports.run = async function({ api, event, Threads }) {
-	const { threadID, messageID } = event;
 
-	var data = (await Threads.getData(threadID)).data;
+module.exports.languages = {
+	"vi": {
+		"on": "bật",
+		"off": "tắt",
+		"successText": "thành công thông báo rankup!",
+		"levelup": "Độ tương tác của {name} đã lên level: {level}.\nCố gắng tương tác với box thật nhiều để lên rank nhe!:>"
+	},
+	"en": {
+		"on": "on",
+		"off": "off",
+		"successText": "success notification rankup!",
+		"levelup": "{name}, your keyboard hero level has reached level {level}",
+	}
+}
+
+module.exports.run = async function({ api, event, Threads, getText }) {
+	const { threadID, messageID } = event;
+	let data = (await Threads.getData(threadID)).data;
 	
 	if (typeof data["rankup"] == "undefined" || data["rankup"] == false) data["rankup"] = true;
 	else data["rankup"] = false;
 	
-	await Threads.setData(parseInt(threadID), { data });
-	global.data.threadData.set(parseInt(threadID), data);
-	
-	return api.sendMessage(`Đã ${(data["rankup"] == true) ? "bật" : "tắt"} thành công thông báo rankup!`, threadID, messageID);
+	await Threads.setData(threadID, { data });
+	global.data.threadData.set(threadID, data);
+	return api.sendMessage(`${(data["rankup"] == true) ? getText("on") : getText("off")} ${getText("successText")}`, threadID, messageID);
 }
