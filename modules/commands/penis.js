@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "( ͡° ͜ʖ ͡°)",
-	commandCategory: "random-text",
+	commandCategory: "lệnh xàm",
 	cooldowns: 1
 };
 
