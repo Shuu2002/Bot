@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "VanHung",
 	description: "Xem ảnh Cosplay",
-	commandCategory: "Image",
+	commandCategory: "hình ảnh",
 	usages: "cosplay",
 	cooldowns: 5
 };
