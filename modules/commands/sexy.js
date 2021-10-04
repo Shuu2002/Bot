@@ -3,7 +3,7 @@ module.exports.config = {
 	version: "1.0.0",
 	hasPermssion: 0,
 	description: "Random Anime",
-	commandCategory: "random-img",
+	commandCategory: "hình ảnh",
 	usages: "sexy",
 	cooldowns: 60
 };
