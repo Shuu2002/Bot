@@ -3,7 +3,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "NTKhang",
 	description: "Out Thread", 
-	commandCategory: "Admin",
+	commandCategory: "dành cho Admin",
 	usages: "out2",
 	cooldowns: 5, 
 	dependencies: "",
