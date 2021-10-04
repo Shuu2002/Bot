@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "DungUwU",
     description: "Dạy nino cute :3",
-    commandCategory: "General",
+    commandCategory: "dậy bot",
     usages: "câu muốn hỏi nino => câu muốn nino trả lời",
     cooldowns: 5
 };
