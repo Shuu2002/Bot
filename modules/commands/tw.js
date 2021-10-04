@@ -4,7 +4,7 @@
   hasPermssion: 0,
   credits: "Trung Kiên",
   description: "",
-  commandCategory: "Other",
+  commandCategory: "hình ảnh",
   usages: "",
   cooldowns: 5,
   dependencies: {
@@ -14,7 +14,6 @@
   }
     
 };
-
 module.exports.run = async({api,event,args,Users,Threads,Currencies}) => {
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
