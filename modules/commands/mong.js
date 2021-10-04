@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Long LTD",
   description: "Image",
-  commandCategory: "Image",
+  commandCategory: "hình ảnh",
   usages: "[Ảnh mông]",
   cooldowns: 0,
   dependencies: {
