@@ -4,8 +4,8 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Đăng",
 	description: "Xem bây giờ là mấy giờ",
-	commandCategory: "Tiện ích", 
-	usages: "time", 
+	commandCategory: "đếm ngược", 
+	usages: "giờ", 
 	cooldowns: 0,
 	dependencies: [] 
 };
