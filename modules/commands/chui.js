@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 1,
     credits: "Vinhbeat",
     description: "Chửi liên tục",
-    commandCategory: "Vinhbeat",
+    commandCategory: "tag 1 ai đó",
     usages: " [@1 đứa nào đó]",
     cooldowns: 1,
     dependencies: {
