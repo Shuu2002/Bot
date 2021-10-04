@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Thanh dz",
 	description: "Random ảnh Misthy :))",
-	commandCategory: "Image",
+	commandCategory: "hình ảnh",
 	usages: "misthy",
 	cooldowns: 5
 };
