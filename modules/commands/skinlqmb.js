@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "HĐGN",
   description: "Random Ảnh Skin Liên Quân",
-  commandCategory: "LIÊN QUÂN MOBILE",
+  commandCategory: "hình ảnh",
   usages: "",
   cooldowns: 0,
   dependencies: {
