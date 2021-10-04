@@ -1,10 +1,10 @@
 module.exports.config = {
-	name: "cat",
+	name: "mèo",
 	version: "1.0.1",
 	hasPermssion: 0,
 	credits: "VDT&NTH",
 	description: "mèo",
-	commandCategory: "Animals",
+	commandCategory: "động vật",
 	usages: "mèo [Text]",
 	cooldowns: 1,
 	
