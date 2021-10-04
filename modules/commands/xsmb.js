@@ -9,7 +9,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "ProCoderMew",
     description: "Xem thông tin xổ số miền bắc hôm nay",
-    commandCategory: "general",
+    commandCategory: "lô đề",
     usages: "",
     cooldowns: 5,
     dependencies: {
