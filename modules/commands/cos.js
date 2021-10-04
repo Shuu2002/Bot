@@ -7,7 +7,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Vinhbeat",
   description: "Ảnh Cospay",
-  commandCategory: "Vinhbeat",
+  commandCategory: "hình ảnh",
   usages: "cos",
   cooldowns: 1,
   dependencies: {
