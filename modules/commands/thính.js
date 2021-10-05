@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "VĐT&NTH",
 	description: "Ca Dao Việt Nam",
-	commandCategory: "Command",
+	commandCategory: "thơ",
 	usages: "gai",
 	cooldowns: 5
 };
