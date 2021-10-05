@@ -5,7 +5,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "CatalizCS",
 	description: "Ghép đôi với những người trong nhóm",
-	commandCategory: "Hình ảnh",
+	commandCategory: "ghép đôi",
 	cooldowns: 90,
 	dependencies: {
         "axios": "",
