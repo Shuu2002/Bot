@@ -4,7 +4,7 @@
 	hasPermssion: 0,
 	credits: "CatalizCS",
 	description: "Ghép đôi với những người trong nhóm",
-	commandCategory: "roleplay",
+	commandCategory: "ghép đôi",
 	cooldowns: 5,
 	dependencies: {
         "axios": "",
