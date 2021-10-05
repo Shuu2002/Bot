@@ -4,7 +4,7 @@ module.exports.config = {
  hasPermssion: 0,
  credits: "JRT",
  description: "Cắm Sừng Một Người Bất Kỳ Mà Bạn Muốn",
- commandCategory: "troll",
+ commandCategory: "hành động",
  usages: "cắm sừng",
  cooldowns: 5
 };
