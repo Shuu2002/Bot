@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "Loi",
 	description: "Chỉnh sửa api key data YouTube v3",
-	commandCategory: "admin",
+	commandCategory: "dành cho admin",
 	usages: "setkey [key]",
 	cooldowns: 5,
 };
