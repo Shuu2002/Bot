@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "Jukie",
 	description: "Xem lịch sử sử dụng bot",
-	commandCategory: "Admin",
+	commandCategory: "dành cho Admin",
 	usages: "lichsu",
 	cooldowns: 5,
 }
