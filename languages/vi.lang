@@ -61,7 +61,7 @@ users.needObject=Phải là một Object
 handleCommand.userBanned=Hiện tại bạn đang bị cấm sử dụng bot!\n%1\n%2
 handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị cấm sử dụng bot!\n%1\n%2
 handleCommand.commandNotExist=Lệnh bạn sử dụng không tồn tại, có phải là lệnh "%1" hay không?
-handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"
+handleCommand.commandNotExist=( \ _ / )\n( = . = )\n(>📗<)\n\n"Hướng dẫn sử dụng" của bạn nè!! Đọc kĩ trước khi xài.\nLệnh bạn sử dụng không có trong hệ thống!!.\nCó phải là lệnh "%1" hay không?
 handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"
 handleCommand.threadNotAllowNSFW=Nhóm của bạn không được phép sử dụng những lệnh NSFW
 handleCommand.cantGetInfoThread=Không thể lấy thông tin của nhóm, lỗi: %1
