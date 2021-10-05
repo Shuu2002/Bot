@@ -9,7 +9,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "ProCoderMew",
 	description: "Lấy thông tin về tình hình dịch bệnh COVID-19",
-	commandCategory: "other",
+	commandCategory: "tình hình dịch bệnh",
 	usages: "",
 	cooldowns: 5,
     dependencies: {
