@@ -1,4 +1,4 @@
-﻿const chalk = require('chalk');
+const chalk = require('chalk');
 
 module.exports = (data, option) => {
 	switch (option) {
@@ -17,13 +17,13 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
 	switch (option) {
 		case "warn":
-			console.log(chalk.magenta('[ warn ] » ') + data);
+			console.log(chalk.yellow('[ LOADER ] » ') + data);
 			break;
 		case "error":
-			console.log(chalk.magenta('[ error ] » ') + data);
+			console.log(chalk.red('[ LOADER ] » ') + data);
 			break;
 		default:
-			console.log(chalk.magenta(`[ Tử Thần Đau Khổ ] » `) + data);
+			console.log(chalk.green(`[ LOADER ] » `) + data);
 			break;
 	}
 }
