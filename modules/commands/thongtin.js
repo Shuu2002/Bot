@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 2,
   credits: "HelyT",
   description: "",
-  commandCategory: "economy",
+  commandCategory: "dành cho admin",
   usages: "data exp/money add/del/set [0] @<mentions>",
   cooldowns: 0,
 };
