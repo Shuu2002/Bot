@@ -4,7 +4,7 @@ module.exports.config = {
   credits: 'manhIT',
   hasPermssion: 2,
   description: 'List thread bot đã tham gia',
-  commandCategory: 'Admin',
+  commandCategory: 'dành cho Admin',
   usages: 'listbox',
   cooldowns: 15
 };
