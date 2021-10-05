@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "Khánh Milo",
 	description: "Khởi động lại bot",
-	commandCategory: "admin",
+	commandCategory: "dành cho admin",
 	cooldowns: 5,
 	dependencies: {
 		"eval": ""
