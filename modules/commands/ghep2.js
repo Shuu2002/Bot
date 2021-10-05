@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Hungcho edit by Hungdz30cm",
   description: "Ghep doi ngau nhien",
-  commandCategory: "Command", 
+  commandCategory: "ghép đôi", 
   usages: "ghep2", 
   cooldowns: 0,
   dependencies: [] 
