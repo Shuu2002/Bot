@@ -1,0 +1,3 @@
+-Xóa bớt noprefix
+-Lệnh ảnh là chủ yếu
+-modu cùi mía
