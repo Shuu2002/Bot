@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "KhánhMilo",
 	description: "Tải video tik tok xóa logo",
-	commandCategory: "media",
+	commandCategory: "video",
 	usages: "[url]",
 	cooldowns: 10,
 	dependencies: {
