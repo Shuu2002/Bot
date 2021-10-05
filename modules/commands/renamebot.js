@@ -4,7 +4,7 @@
     hasPermssion: 2,
     credits: "CatalizCS",
     description: "Đổi biệt danh của bot ở toàn bộ box!",
-    commandCategory: "admin",
+    commandCategory: "dành cho admin",
     usages: "renamebot [Biệt danh cần đặt]",
     cooldowns: 2,
 };
