@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Phát nhạc thông qua link YouTube, SoundCloud hoặc từ khoá tìm kiếm",
-	commandCategory: "media",
+	commandCategory: "Giải trí",
 	usages: "[link or content need search]",
 	cooldowns: 10,
 	dependencies: {
