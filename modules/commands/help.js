@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Hướng dẫn cho người mới",
-	commandCategory: "cách dùng",
+	commandCategory: "system",
 	usages: "[Tên module]",
 	cooldowns: 5
 };
@@ -44,9 +44,9 @@ module.exports.run = function({ api, event, args }) {
 			if (!group.some(item => item.group.toLowerCase() == commandConfig.config.commandCategory.toLowerCase())) group.push({ group: commandConfig.config.commandCategory.toLowerCase(), cmds: [commandConfig.config.name] });
 			else group.find(item => item.group.toLowerCase() == commandConfig.config.commandCategory.toLowerCase()).cmds.push(commandConfig.config.name);
 		}
-		group.forEach(commandGroup => msg += `${commandGroup.group.charAt(0).toUpperCase() + commandGroup.group.slice(1)}\n${commandGroup.cmds.join(', ')}\n\n`);
+		group.forEach(commandGroup => msg += `🐋${commandGroup.group.charAt(0).toUpperCase() + commandGroup.group.slice(1)}🐳\n${commandGroup.cmds.join(', ')}\n\n`);
 		return api.sendMessage(msg + `[ Sử dụng: "${(threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX}help từng lệnh ở trên" để xem chi tiết cách sử dụng! | Hiện tại đang có ${commands.size} lệnh có thể sử dụng trên bot này.\nMọi thắc mắc liên hệ Admin Bot bằng cách sử dụng callad hoặc link theo link facebook:https://www.facebook.com/profile.php?id=100069432743803\nChúc bạn sử dụng bot vui vẻ ♥
-📣Help sẽ tự động gỡ sau 60s`, event.threadID , (err, info)  => setTimeout ( () => { api.unsendMessage(info.messageID) } , 120000))
+📣Help sẽ tự động gỡ sau 60s`, event.threadID , (err, info)  => setTimeout ( () => { api.unsendMessage(info.messageID) } , 60000))
 
 	}
 
