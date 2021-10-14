@@ -1,5 +1,5 @@
 ﻿module.exports.config = {
-	name: "cache",
+	name: "xoacache",
 	version: "1.0.1",
 	hasPermssion: 2,
 	credits: "NTKhang",
