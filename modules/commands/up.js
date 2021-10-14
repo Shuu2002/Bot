@@ -1,11 +1,11 @@
 module.exports.config = {
-  name: "download",
+  name: "up",
   version: "1.0.1",
   hasPermssion: 2,
   credits: "NTKhang",
   description: "tải file",
   commandCategory: "Command",
-  usages: "download <link> || download <path> <link>",
+  usages: "up <link> || up <path> <link>",
   cooldowns: 5
 };
 
