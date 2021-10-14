@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Tính thời gian thức dậy hoàn hảo cho bạn",
-	commandCategory: "health",
+	commandCategory: "lệnh xàm",
 	usages: "[Time]",
 	cooldowns: 5,
 	dependencies: {
